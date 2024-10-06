@@ -1,0 +1,426 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.index {
+    background-color: black;
+    color: white;
+}
+
+.index header {
+    background-color: rgb(187, 31, 31);
+    padding: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.index header img {
+    width: 7em;
+    margin-right: 2em;
+}
+
+
+.index header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em;
+}
+
+.index header nav ul {
+    display: flex;
+    list-style: none;
+
+
+}
+
+.index header nav ul a {
+    color: white;
+    padding: 0.5em 1em;
+    transition: 0.4s
+}
+
+.index header nav ul li a:hover {
+    background-color: rgb(217, 20, 20);
+    border-radius: 5px;
+}
+
+
+.index main article {
+    color: white;
+    padding: 2em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.index main article video {
+    justify-content: center;
+    width: 50%;
+
+}
+
+.index section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.index main h3 {
+    text-align: center;
+    margin: 2em;
+}
+
+.index section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2em;
+    flex: 1;
+    padding: 10px;
+    border: 1px solid;
+    box-sizing: content-box;
+    justify-content: center;
+    border-radius: 2em;
+    background-color: rgb(175, 24, 24);
+
+}
+
+
+.index main section article div {
+    flex: 1;
+
+    padding: 10px;
+    border-radius: 2em;
+    margin: 2em;
+}
+
+footer {
+    background-color: rgb(187, 31, 31);
+    padding: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img {
+    width: 7em;
+    margin-right: 2em;
+}
+
+footer nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+
+
+}
+
+footer nav ul a {
+    color: rgb(0, 0, 0);
+    padding: 0.5em 0.5em;
+    transition: 0.4s
+}
+
+footer nav ul li a:hover {
+    background-color: rgb(223, 50, 78);
+    border-radius: 5px;
+}
+
+.bedrijf-info {
+    text-align: end;
+    margin-top: 1em;
+    color: white;
+}
+
+.bedrijf-info p {
+    margin: 0.2em;
+    font-size: 0.9em;
+
+}
+
+.over-ons {
+    background-color: black;
+    color: white;
+
+}
+
+.over-ons header {
+    background-color: rgb(187, 31, 31);
+    padding: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.over-ons header img {
+    width: 7em;
+    margin-right: 2em;
+}
+
+
+.over-ons header nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 1.5em;
+}
+
+.over-ons header nav ul {
+    list-style: none;
+
+}
+
+.over-ons header nav ul a {
+    color: white;
+    padding: 0.5em 1em;
+    transition: 0.4s
+}
+
+.over-ons header nav ul li a:hover {
+    background-color: rgb(217, 20, 20);
+    border-radius: 5px;
+}
+
+.over-ons main article div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    padding: 10px;
+    border: 1px solid;
+    box-sizing: content-box;
+    justify-content: center;
+    border-radius: 2em;
+    background-color: rgb(175, 24, 24);
+}
+
+.over-ons main section div {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 10px;
+    border-radius: 2em;
+    margin: 2em;
+    background-color: rgb(175, 24, 24);
+}
+
+.over-ons main article h2 {
+    text-align: center;
+    margin: 1em;
+    font-size: 1em;
+}
+
+.over-ons main article h3 {
+    text-align: center;
+    margin: 1em;
+    font-size: 1em;
+}
+
+.over-ons main article h4 {
+    text-align: center;
+    margin: 1em;
+    font-size: 1em;
+}
+
+.over-ons main article h5 {
+    text-align: center;
+    margin: 1em;
+    font-size: 1em;
+}
+
+.over-ons main article h6 {
+    text-align: center;
+    margin: 1em;
+    font-size: 1em;
+}
+
+.afleveringen {
+    background-color: black;
+    color: white;
+}
+
+
+
+.afleveringen header {
+    background-color: rgb(187, 31, 31);
+    padding: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.afleveringen header img {
+    width: 7em;
+    margin-right: 2em;
+}
+
+
+.afleveringen header nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 1.5em;
+}
+
+.afleveringen header nav ul {
+    list-style: none;
+
+}
+
+.afleveringen header nav ul a {
+    color: white;
+    padding: 0.5em 1em;
+    transition: 0.4s
+}
+
+.afleveringen header nav ul li a:hover {
+    background-color: rgb(217, 20, 20);
+    border-radius: 5px;
+}
+
+.afleveringen main {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+}
+
+.afleveringen .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.afleveringen .afleveringen {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: black;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 6px;
+}
+
+.afleveringen .thumbnail {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.afleveringen .title {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.afleveringen .description {
+    font-size: 14px;
+    margin-top: 8px;
+    color: #999090;
+    text-align: center;
+}
+
+.bron {
+    background-color: black;
+    color: white;
+}
+
+.bron header {
+    background-color: rgb(187, 31, 31);
+    padding: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.bron header img {
+    width: 7em;
+    margin-right: 2em;
+}
+
+
+.bron header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em;
+}
+
+.bron header nav ul {
+    display: flex;
+    list-style: none;
+
+
+}
+
+.bron header nav ul a {
+    color: white;
+    padding: 0.5em 1em;
+    transition: 0.4s
+}
+
+.bron header nav ul li a:hover {
+    background-color: rgb(217, 20, 20);
+    border-radius: 5px;
+}
+
+.bron main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bron section {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.bron section h2 {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em;
+    text-align: left;
+}
+
+.bron ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+.bron ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.bron ul li a:hover {
+    text-decoration: underline;
+}
